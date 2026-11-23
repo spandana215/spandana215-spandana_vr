@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spandana VR | ML & Explainable AI Portfolio</title>
+  <meta name="description" content="Portfolio of Spandana VR, Information Science & Engineering student at NMIT Bengaluru, specialising in Machine Learning, Deep Learning and Explainable AI." />
+  <meta property="og:title" content="Spandana VR | ML & Explainable AI Portfolio" />
+  <meta property="og:description" content="Building AI that is accurate, explainable and useful." />
+  <meta property="og:image" content="assets/spandana.jpg" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%237c4ddb'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='700' font-size='30' fill='white'>SV</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Spandana<span>.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#focus">Focus</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/Spandana_VR_Resume.pdf" class="btn btn-primary btn-sm" download>Resume</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="dots dots-hero"></div>
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">ML · Deep Learning · Explainable AI</p>
+          <h1>Hello,<br /><span class="name-line">I’m <span class="grad">Spandana</span> <span class="wave">👋</span></span></h1>
+          <div class="underline"></div>
+          <p class="typed-line">I build <span id="typed" class="accent"></span><span class="cursor">|</span></p>
+
+          <div class="about-copy" id="about">
+            <p>I am an <strong>Information Science &amp; Engineering</strong> student at NMIT, Bengaluru, passionate about building machine-learning systems that are not only accurate but also <span class="accent">transparent and trustworthy</span>.</p>
+            <p>My work spans predictive modelling, image classification and model interpretation, using <span class="accent">Python, scikit-learn, XGBoost and TensorFlow</span>, with a strong grounding in feature engineering, cross-validation, hyperparameter tuning and explainability with SHAP and LIME.</p>
+            <p>I believe good AI is more than a high score. It is about understanding the problem, earning user trust and shipping something people can actually use. That is why I take my models all the way to deployable apps with Streamlit, FastAPI, React.js and Supabase.</p>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="assets/Spandana_VR_Resume.pdf" class="btn btn-ghost" download>
+              <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14"/></svg>
+              Download Resume
+            </a>
+          </div>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/spandana-v-r-a34a192a2" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg></a>
+            <a href="https://github.com/spandana215" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+            <a href="mailto:spandana0147@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="blob"></div>
+          <div class="photo-frame">
+            <img src="assets/spandana.jpg" alt="Spandana VR" />
+          </div>
+          <!-- floating cards -->
+          <div class="float-card fc-brain" title="Deep Learning">
+            <svg viewBox="0 0 24 24"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-1.04z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-1.04z"/></svg>
+          </div>
+          <div class="float-card fc-heart small" title="Healthcare AI">
+            <svg viewBox="0 0 24 24" class="filled"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+          </div>
+          <div class="float-card fc-code dark" title="Python">
+            <svg viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
+          </div>
+          <div class="float-card fc-chart wide" title="Model metrics">
+            <div class="mini-head"><span></span><span class="short"></span></div>
+            <div class="bars">
+              <i style="--h:45%"></i><i style="--h:62%"></i><i style="--h:54%"></i><i style="--h:78%"></i><i style="--h:88%"></i>
+            </div>
+            <div class="mini-row"><b>87.89%</b><em>val. accuracy</em></div>
+          </div>
+          <div class="dots dots-photo"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STATS ================= -->
+    <section class="stats-wrap">
+      <div class="container stats reveal">
+        <div class="stat"><strong data-count="8.75" data-dec="2">8.75</strong><span>CGPA / 10</span></div>
+        <div class="stat"><strong data-count="86.93" data-dec="2" data-suf="%">86.93%</strong><span>XGBoost accuracy</span></div>
+        <div class="stat"><strong data-count="87.89" data-dec="2" data-suf="%">87.89%</strong><span>CNN val. accuracy</span></div>
+        <div class="stat"><strong data-count="5" data-suf="+">5+</strong><span>Certifications</span></div>
+      </div>
+    </section>
+
+    <!-- ================= FOCUS ================= -->
+    <section class="section" id="focus">
+      <div class="container">
+        <div class="panel reveal">
+          <div class="section-title">
+            <span class="title-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
+            <h2>My Focus Areas</h2>
+          </div>
+          <div class="focus-grid">
+            <div class="focus-card"><div class="f-icon"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 6-6"/></svg></div><p>Machine Learning</p></div>
+            <div class="focus-card"><div class="f-icon"><svg viewBox="0 0 24 24"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="M7 6.8 10 11M7 17.2l3-4.2M14 11l3-4.2M14 13l3 4.2"/></svg></div><p>Deep Learning &amp; CNNs</p></div>
+            <div class="focus-card"><div class="f-icon"><svg viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div><p>Explainable AI (SHAP, LIME)</p></div>
+            <div class="focus-card"><div class="f-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg></div><p>Computer Vision</p></div>
+            <div class="focus-card"><div class="f-icon"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5"/><path d="M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/></svg></div><p>Data Analysis &amp; EDA</p></div>
+            <div class="focus-card"><div class="f-icon"><svg viewBox="0 0 24 24"><path d="m12 3 1.9 5.8L20 10l-6.1 1.2L12 17l-1.9-5.8L4 10l6.1-1.2z"/><path d="M19 17l.8 2.2L22 20l-2.2.8L19 23l-.8-2.2L16 20l2.2-.8z"/></svg></div><p>GenAI, LLMs &amp; RAG</p></div>
+            <div class="focus-card"><div class="f-icon"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 22h8M12 18v4M7 9l3 2-3 2M13 13h4"/></svg></div><p>Full-Stack AI Apps</p></div>
+          </div>
+        </div>
+
+        <!-- Philosophy -->
+        <div class="philosophy reveal">
+          <div class="dots dots-phil"></div>
+          <div class="bulb"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1V17h6v-.2c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2z"/></svg></div>
+          <div>
+            <h3>My AI Philosophy</h3>
+            <blockquote>
+              <span class="q q-open">“</span>A model is only as useful as it is understandable.<span class="q q-close">”</span>
+            </blockquote>
+            <p>I aim to build AI that balances performance with transparency. Every prediction should be explainable, every evaluation honest, and every product simple enough for real users, from clinicians to citizens, to trust and act on.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Selected work</p>
+          <h2>Featured <span class="grad">Projects</span></h2>
+          <div class="underline center"></div>
+        </div>
+
+        <article class="project reveal">
+          <div class="project-art art-xai">
+            <div class="art-card">
+              <div class="art-title">Readmission risk</div>
+              <div class="risk"><span>High</span><b>0.78</b></div>
+              <div class="shap">
+                <div><em>num_inpatient</em><i class="pos" style="--w:82%"></i></div>
+                <div><em>num_medications</em><i class="pos" style="--w:58%"></i></div>
+                <div><em>time_in_hospital</em><i class="pos" style="--w:44%"></i></div>
+                <div><em>age</em><i class="neg" style="--w:30%"></i></div>
+                <div><em>A1C_result</em><i class="neg" style="--w:22%"></i></div>
+              </div>
+              <div class="art-foot">SHAP feature contributions</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span class="tag">Healthcare · XAI</span><span class="date">Jan 2025 – Aug 2026</span></div>
+            <h3>Explainable AI for Clinical Decision Support System</h3>
+            <p>An end-to-end ML pipeline on the UCI Diabetes dataset (~101,766 hospital encounters) that predicts 30-day patient readmission and explains every prediction to clinicians.</p>
+            <ul class="points">
+              <li>Benchmarked Logistic Regression, Decision Tree, Random Forest and XGBoost; <strong>XGBoost reached 86.93% accuracy</strong>.</li>
+              <li>Leak-free cross-validation and hyperparameter tuning to avoid overly optimistic estimates.</li>
+              <li>Tuned the decision threshold with <strong>F2-score</strong> to prioritise recall on high-risk patients.</li>
+              <li><strong>SHAP &amp; LIME</strong> explanations at global and per-patient level, deployed in an interactive Streamlit app.</li>
+            </ul>
+            <div class="chips">
+              <span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>XGBoost</span><span>SHAP</span><span>LIME</span><span>Streamlit</span>
+            </div>
+            <div class="metric-row">
+              <div><b>~101K</b><span>encounters</span></div>
+              <div><b>4</b><span>models compared</span></div>
+              <div><b>86.93%</b><span>accuracy</span></div>
+            </div>
+            <a href="https://github.com/spandana215" target="_blank" rel="noopener" class="link-arrow">View on GitHub <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+          </div>
+        </article>
+
+        <article class="project reverse reveal">
+          <div class="project-art art-civic">
+            <div class="map">
+              <span class="road r1"></span><span class="road r2"></span><span class="road r3"></span>
+              <span class="pin p1"><svg viewBox="0 0 24 24"><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14"/></svg></span><span class="pin p2"><svg viewBox="0 0 24 24"><path d="M12 9v6M12 3v2M12 19v2"/><path d="M4 21 8 3M20 21 16 3"/></svg></span><span class="pin p3"><svg viewBox="0 0 24 24"><path d="M12 2.7s7 7.3 7 12.3a7 7 0 0 1-14 0c0-5 7-12.3 7-12.3z"/></svg></span><span class="pin p4"><svg viewBox="0 0 24 24"><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14"/></svg></span>
+              <div class="map-card">
+                <div class="art-title">New report</div>
+                <div class="pred"><span>Pothole</span><b>94%</b></div>
+                <div class="status"><i></i>In progress</div>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span class="tag">Smart City · Computer Vision</span><span class="date">Feb 2026 – Oct 2026</span></div>
+            <h3>CivicLens: Smart City Problem Mapper</h3>
+            <p>A full-stack, AI-powered civic reporting platform that detects urban issues such as garbage, potholes and waterlogging from citizen-submitted photos and tracks them to resolution.</p>
+            <ul class="points">
+              <li>Trained a <strong>MobileNetV2</strong> transfer-learning classifier with <strong>87.89% validation accuracy</strong> across 4 civic-issue categories.</li>
+              <li>Responsive React.js interface with interactive map views for submitting and browsing reports.</li>
+              <li>FastAPI REST endpoints and a Supabase data layer for complaints and status workflows.</li>
+              <li>Separate <strong>citizen and admin dashboards</strong> for submission, tracking and status management.</li>
+            </ul>
+            <div class="chips">
+              <span>TensorFlow</span><span>MobileNetV2</span><span>React.js</span><span>FastAPI</span><span>Supabase</span><span>REST APIs</span>
+            </div>
+            <div class="metric-row">
+              <div><b>87.89%</b><span>val. accuracy</span></div>
+              <div><b>4</b><span>issue classes</span></div>
+              <div><b>2</b><span>role dashboards</span></div>
+            </div>
+            <a href="https://github.com/spandana215" target="_blank" rel="noopener" class="link-arrow">View on GitHub <svg viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section tinted" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Toolbox</p>
+          <h2>Technical <span class="grad">Skills</span></h2>
+          <div class="underline center"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="sk-head"><span class="f-icon sm"><svg viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg></span><h4>Programming</h4></div>
+            <div class="chips"><span>Python</span><span>Java</span><span>SQL</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="sk-head"><span class="f-icon sm"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 6-6"/></svg></span><h4>Machine Learning</h4></div>
+            <div class="chips"><span>Scikit-learn</span><span>XGBoost</span><span>Supervised &amp; Unsupervised</span><span>Regression</span><span>Classification</span><span>Feature Engineering</span><span>Cross-Validation</span><span>Hyperparameter Tuning</span><span>Model Evaluation</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="sk-head"><span class="f-icon sm"><svg viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></span><h4>Deep Learning &amp; XAI</h4></div>
+            <div class="chips"><span>TensorFlow</span><span>Neural Networks</span><span>CNN</span><span>MobileNetV2</span><span>SHAP</span><span>LIME</span><span>Model Interpretability</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="sk-head"><span class="f-icon sm"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5"/></svg></span><h4>Data &amp; AI</h4></div>
+            <div class="chips"><span>Pandas</span><span>NumPy</span><span>Data Preprocessing</span><span>EDA</span><span>GenAI</span><span>LLMs</span><span>RAG</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="sk-head"><span class="f-icon sm"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 22h8M12 18v4"/></svg></span><h4>Development &amp; Tools</h4></div>
+            <div class="chips"><span>FastAPI</span><span>Streamlit</span><span>React.js</span><span>REST APIs</span><span>Supabase</span><span>Git</span><span>GitHub</span><span>VS Code</span><span>MS Excel</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="sk-head"><span class="f-icon sm"><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5M2 12l10 5 10-5"/></svg></span><h4>Core Concepts</h4></div>
+            <div class="chips"><span>DSA</span><span>OOP</span><span>DBMS</span><span>Operating Systems</span><span>Computer Networking</span><span>Cloud Computing</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Academics</p>
+          <h2>My <span class="grad">Education</span></h2>
+          <div class="underline center"></div>
+        </div>
+        <div class="timeline">
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <div class="tl-top"><span class="date">Sept 2023 – July 2027</span><span class="score">CGPA 8.75 / 10</span></div>
+              <h4>B.E. in Information Science &amp; Engineering</h4>
+              <p>Nitte Meenakshi Institute of Technology (NMIT), Bengaluru</p>
+            </div>
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <div class="tl-top"><span class="date">June 2022 – March 2023</span><span class="score">87%</span></div>
+              <h4>Pre-University: Science (PCMB)</h4>
+              <p>Deeksha PU College, Bengaluru</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CERTIFICATIONS ================= -->
+    <section class="section tinted" id="certifications">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Credentials</p>
+          <h2>Certifications &amp; <span class="grad">Achievements</span></h2>
+          <div class="underline center"></div>
+        </div>
+        <div class="cert-grid">
+          <div class="cert reveal"><div class="cert-badge">G</div><div><h4>Google Associate Cloud Engineer</h4><p>Google Cloud · Apr 2026</p></div></div>
+          <div class="cert reveal"><div class="cert-badge">A</div><div><h4>AWS Cloud Foundations &amp; Architecting</h4><p>AWS Academy · Oct 2025</p></div></div>
+          <div class="cert reveal"><div class="cert-badge">O</div><div><h4>OCI Certified Foundations Associate</h4><p>Oracle Cloud Infrastructure · Sept 2025</p></div></div>
+          <div class="cert reveal"><div class="cert-badge">I</div><div><h4>AI, Deep Learning, NLP, Python for Data Science</h4><p>Infosys Springboard · June 2025</p></div></div>
+          <div class="cert reveal"><div class="cert-badge">C</div><div><h4>Algorithm Thinking</h4><p>Coursera · May 2025</p></div></div>
+        </div>
+
+        <div class="achievements">
+          <div class="ach reveal">
+            <div class="f-icon sm"><svg viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4zM17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg></div>
+            <div><h4>Smart India Hackathon (SIH)</h4><p>Participated with a Real-Time Public Transport Tracking solution for small cities (Transportation &amp; Logistics theme).</p></div>
+          </div>
+          <div class="ach reveal">
+            <div class="f-icon sm"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <div><h4>Chiguru Club Member</h4><p>Coordinated cultural and social-service events and contributed to community-development activities under Gram Vikas (VKA).</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div>
+            <p class="eyebrow">Let’s connect</p>
+            <h2>Open to <span class="grad">internships</span> &amp; collaborations</h2>
+            <p class="muted">I’m looking for opportunities in Machine Learning, Data Science and AI engineering. Feel free to reach out. I’d love to hear from you!</p>
+            <a href="mailto:spandana0147@gmail.com" class="btn btn-primary">Say Hello</a>
+          </div>
+          <div class="contact-list">
+            <a href="mailto:spandana0147@gmail.com"><span class="f-icon sm"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span><div><small>Email</small>spandana0147@gmail.com</div></a>
+            <a href="https://www.linkedin.com/in/spandana-v-r-a34a192a2" target="_blank" rel="noopener"><span class="f-icon sm"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg></span><div><small>LinkedIn</small>spandana-v-r</div></a>
+            <a href="https://github.com/spandana215" target="_blank" rel="noopener"><span class="f-icon sm"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></span><div><small>GitHub</small>spandana215</div></a>
+            <div class="loc"><span class="f-icon sm"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><small>Location</small>Bengaluru, India</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="thanks reveal">
+        <div class="heart-badge"><svg viewBox="0 0 24 24" class="filled"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></div>
+        <p>Thank you for <span class="accent">visiting my portfolio</span>.<br />I invite you to explore my projects and follow <span class="accent">my AI journey</span>.</p>
+      </div>
+      <div class="desk reveal" aria-hidden="true">
+        <div class="mug"><svg viewBox="0 0 24 24" class="filled"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></div>
+        <div class="laptop">
+          <div class="screen">
+            <div class="code-lines"><i style="--w:60%"></i><i style="--w:80%" class="v"></i><i style="--w:45%"></i><i style="--w:70%" class="v"></i><i style="--w:55%"></i></div>
+            <div class="scr-chart"><i style="--h:40%"></i><i style="--h:65%"></i><i style="--h:50%"></i><i style="--h:85%"></i></div>
+          </div>
+          <div class="base"></div>
+        </div>
+        <div class="plant"><span class="leaf l1"></span><span class="leaf l2"></span><span class="leaf l3"></span><span class="pot"></span><span class="books"></span></div>
+      </div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> Spandana VR · Built with HTML, CSS &amp; JavaScript</div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top"><svg viewBox="0 0 24 24"><path d="m18 15-6-6-6 6"/></svg></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
